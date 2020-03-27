@@ -1,0 +1,15 @@
+# StealthApp
+
+This app performs a malicious behavior to leak the IMEI of a device to the out 
+of the world via SMS. 
+It utilizes functions of 2 benign apps to achieve obtaining IMEI number and 
+sending SMS respectively instead of implementing these functions itself. 
+In this way, it hides its malicious behaviors.
+
+The required 2 apps are: 
+  * com.globalcanofworms.android.simpleweatheralert
+  * org.communicorpbulgaria. bgradio respectively.
+
+Permissions of send sms and read phone state are also need to be granted.
+
+This app is tested on a Nexus 5 device running Android version 8.1.0.
