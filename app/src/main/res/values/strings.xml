@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">stealthapp</string>
+    <string name="get_imei">Fill Message with IMEI</string>
+    <string name="message_input_hint">Input Your Message</string>
+    <string name="send_msg">Send</string>
+    <string name="phone_number_hint">Phone No.</string>
 </resources>
